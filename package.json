@@ -1,0 +1,22 @@
+{
+  "name": "comment",
+  "version": "1.0.0",
+  "description": "comment system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q-ello/comment.git"
+  },
+  "author": "Julia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/q-ello/comment/issues"
+  },
+  "homepage": "https://github.com/q-ello/comment#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

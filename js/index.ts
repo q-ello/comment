@@ -357,6 +357,8 @@ document.addEventListener('DOMContentLoaded', () => {
         icon.setAttribute('src', `https://picsum.photos/id/${id}/100`)
 
         textarea.value = '';
+        sizeControl.innerText = textarea.value;
+        textarea.style.height = `${sizeControl.clientHeight}px`;
         charsCounter.innerText = `Макс. 1000 символов`;
         postBtn.disabled = true;
         const newComment: PostedComment = new PostedComment(newInfo);

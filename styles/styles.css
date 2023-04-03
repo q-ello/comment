@@ -211,7 +211,7 @@ h5 {
 }
 
 #comment-size-control {
-    display: inline-block;
+    overflow-wrap: break-word;
 }
 
 #comment {

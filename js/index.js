@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     render();
     textarea.oninput = () => {
-        sizeControl.innerText = textarea.value;
+        sizeControl.innerHTML = `<p>${textarea.value}</p>`;
         textarea.style.height = `${sizeControl.clientHeight}px`;
         const lengthOfComment = textarea.value.length;
         charsCounter.innerText = `${lengthOfComment}/1000`;

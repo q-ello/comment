@@ -196,6 +196,7 @@ h5 {
 
 .comment-container {
     position: relative;
+    max-width: 688px;
 }
 
 .comment {
@@ -203,11 +204,14 @@ h5 {
     padding-left: 30px;
     width: 688px;
     max-width: 688px;
-
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     min-height: 61px;
+}
+
+#comment-size-control {
+    display: inline-block;
 }
 
 #comment {

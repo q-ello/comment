@@ -300,6 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isReacted: false
         };
         id += 10;
+        localStorage.setItem('id', JSON.stringify(id));
         icon.setAttribute('src', `https://picsum.photos/id/${id}/100`);
         textarea.value = '';
         sizeControl.innerText = textarea.value;

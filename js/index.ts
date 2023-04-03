@@ -354,6 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         id += 10;
+        localStorage.setItem('id', JSON.stringify(id));
         icon.setAttribute('src', `https://picsum.photos/id/${id}/100`)
 
         textarea.value = '';
